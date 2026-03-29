@@ -1,8 +1,5 @@
 # 🧩 Modos do Copiloto (Ask, Edit, Plan, Agent e Study)
 
-![dio/me](https://img.shields.io/badge/dio-me-ff2d55)
-![IA](https://img.shields.io/badge/IA-Assistente%20Inteligente-blue)
-![Prompt](https://img.shields.io/badge/Prompt-engineering-yellow)
 
 O Copiloto oferece diferentes **modos de interação** para você escolher como quer trabalhar: desde **tirar dúvidas sem mexer no código**, até **editar trechos específicos**, **planejar mudanças maiores** ou **delegar tarefas mais complexas** com um modo mais autônomo. A ideia é simples: você seleciona o modo que melhor combina com seu objetivo no momento e ganha velocidade com mais controle.
 
@@ -13,25 +10,7 @@ O modo **Ask** é para fazer perguntas e entender coisas, **sem alterar seu cód
 
 O Copiloto lê o contexto do projeto (arquivos abertos, seleção, etc.) e responde como um **“mentor técnico”**, explicando o que está acontecendo e por quê. **Ele não modifica nada** — só analisa e explica.
 
-📄 **Prompt:** [prompts/prompt-ask.md](prompts/prompt-ask.md)
-
----
-
-# ✏️ Edit
-O modo **Edit** serve para **alterar código existente**. Você seleciona um trecho (ou um arquivo inteiro), descreve o que quer mudar, e o Copiloto aplica a modificação diretamente.
-
-Ideal para:
-- refactors
-- ajustes de lógica
-- melhoria de performance
-- mudança de estilo
-- conversão de linguagem
-- adicionar logs
-- tratar erros
-
-Aqui o foco é: **“pegue isso que já existe e transforme”**.
-
-📄 **Prompt:** [prompts/prompt-edit.md](prompts/prompt-edit.md)
+📄 **Prompt:** [prompts/promptAsk.md](prompts/promptAsk.md)
 
 ---
 
@@ -45,7 +24,7 @@ Ele:
 
 Isso é muito útil para **mudanças grandes**, **novas features** ou quando você quer **validar a abordagem** antes de mexer no código.
 
-📄 **Prompt:** [prompts/prompt-plan.md](prompts/prompt-plan.md)
+📄 **Prompt:** [prompts/promptPlan.md](prompts/promptPlan.md)
 
 ---
 
@@ -54,7 +33,7 @@ O **Agent** é o modo mais “autônomo”. Ele pode **navegar pelo projeto**, *
 
 Você dá um objetivo (ex.: “implemente login com JWT”) e ele decide o que precisa ser feito em vários arquivos para chegar lá.
 
-📄 **Prompt:** [prompts/prompt-agent.md](prompts/prompt-agent.md)
+📄 **Prompt:** [prompts/promptAgent.md](prompts/promptAgent.md)
 
 ---
 
@@ -69,7 +48,7 @@ Em vez de simplesmente explicar ou executar, ele:
 
 Funciona quase como um **tutor particular**.
 
-📄 **Prompt:** [prompts/prompt-study.md](prompts/prompt-study.md)
+📄 **Prompt:** [prompts/promptStudy.md](prompts/promptStudy.md)
 
 ---
 
